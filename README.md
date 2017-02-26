@@ -1,5 +1,5 @@
 [![dependencies Status](https://david-dm.org/toinelin/next-motion/status.svg)](https://david-dm.org/toinelin/next-motion)
-# Animation transition using Zeit Now & Next.js
+# Animation transition using Next.js & React-motion
 
 Simple animation between routes.
 Based on Next.js from [ZEIT](https://zeit.co/)
