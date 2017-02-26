@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { spring } from 'react-motion'
 import Transition from 'react-motion-ui-pack'
 
 // Import from /components
@@ -26,7 +27,7 @@ export default class extends Component {
   isEntering = () => {
     return {
       opacity: 1,
-      translateY: 50,
+      translateY: spring(50, { stiffness: 120, damping: 17 }),
     }
   }
   /*
@@ -42,30 +43,28 @@ export default class extends Component {
     // JSX
     return (
       <div>
-        <div>
-          <button>
-            <Link
-              to="/about"
-              onClickDo={this.onClickDo}
-              status={this.state.isLeaving}
-            >
-              about
-            </Link>
-          </button>
-          <Transition
-            component={false}
-            enter={this.isEntering()}
-            leave={this.isLeaving()}
+        <button>
+          <Link
+            to="/about"
+            onClickDo={this.onClickDo}
+            status={this.state.isLeaving}
           >
-            {
-              // If state = true, display content
-              this.state.isReady &&
-              <div key="title" className="title">
-                <h1>index</h1>
-              </div>
-            }
-          </Transition>
-        </div>
+            about
+          </Link>
+        </button>
+        <Transition
+          component={false}
+          enter={this.isEntering()}
+          leave={this.isLeaving()}
+        >
+          {
+            // If state = true, display content
+            this.state.isReady &&
+            <div key="title" className="title">
+              <h1>index</h1>
+            </div>
+          }
+        </Transition>
       </div>
     )
   }
