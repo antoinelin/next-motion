@@ -1,3 +1,4 @@
+[![dependencies Status](https://david-dm.org/toinelin/next-motion/status.svg)](https://david-dm.org/toinelin/next-motion)
 # Animation transition using Zeit Now & Next.js
 
 Simple animation between routes.
