@@ -20,7 +20,7 @@ Clone the repo:
 ```shell
 $ git clone https://github.com/toinelin/next-motion.git
 ```
-Install dependancies :
+Install dependencies :
 ```shell
 $ cd next-motion && yarn
 ```
