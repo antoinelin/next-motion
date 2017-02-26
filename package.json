@@ -1,0 +1,36 @@
+{
+  "name": "next-motion",
+  "author": "toinelin <contact@antoinelin.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^2.0.0-beta",
+    "react": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.0.0",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-friendly-formatter": "^2.0.6",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-babel": "^4.0.0",
+    "eslint-plugin-flowtype": "^2.29.1",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "jest": "^19.0.2",
+    "jest-css-modules": "^1.1.0",
+    "react-dom": "^15.4.2",
+    "react-motion": "^0.4.7",
+    "react-motion-ui-pack": "^0.10.2",
+    "standard": "8.4.0"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "NODE_ENV=production next start",
+    "lint": "standard"
+  }
+}
