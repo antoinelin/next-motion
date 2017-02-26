@@ -1,7 +1,7 @@
 # Animation transition using Zeit Now & Next.js
 
 Simple animation between routes.
-Based on Next.js from [Zeit](https://zeit.co/)
+Based on Next.js from [ZEIT](https://zeit.co/)
 
 Live demo : [next-motion.now](https://next-motion-lvanuidxhz.now.sh/)
 
@@ -12,5 +12,19 @@ Live demo : [next-motion.now](https://next-motion-lvanuidxhz.now.sh/)
 - [React-motion](https://github.com/chenglou/react-motion)
 - [React-motion-ui-pack](https://github.com/souporserious/react-motion-ui-pack)
 
-# Running the app localy
+## Running the app localy
 
+**Requirement:** Node.js 5.x or newer
+ 
+Clone the repo:
+```shell
+$ git clone https://github.com/toinelin/next-motion.git
+```
+Install dependancies :
+```shell
+$ cd next-motion && yarn
+```
+Run dev:
+```shell
+$ yarn dev
+```
