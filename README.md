@@ -6,7 +6,7 @@ Based on Next.js from [ZEIT](https://zeit.co/)
 
 Live demo : [next-motion.now](https://next-motion-lvanuidxhz.now.sh/)
 
-## Using
+## Stacks
 
 - [React](https://facebook.github.io/react/)
 - [Next.js](https://zeit.co/blog/next)

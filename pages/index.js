@@ -47,7 +47,6 @@ export default class extends Component {
           <Link
             to="/about"
             onClickDo={this.onClickDo}
-            status={this.state.isLeaving}
           >
             about
           </Link>
