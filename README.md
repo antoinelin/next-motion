@@ -4,7 +4,7 @@
 Simple animation between routes.
 Based on Next.js from [ZEIT](https://zeit.co/)
 
-Live demo : [next-motion.now](https://next-motion-lvanuidxhz.now.sh/)
+Live demo : [next-motion.now](https://next-motion.now.sh)
 
 ## Stacks
 

@@ -43,15 +43,6 @@ export default class extends Component {
     // JSX
     return (
       <div>
-        <button>
-          <Link
-            to="/"
-            onClickDo={this.onClickDo}
-            status={this.state.isLeaving}
-          >
-            Index
-          </Link>
-        </button>
         <Transition
           component={false}
           enter={this.isEntering()}
